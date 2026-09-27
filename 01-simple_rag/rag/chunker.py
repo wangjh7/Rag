@@ -9,7 +9,7 @@ from .document_parser import Document
 
 @dataclass
 class Chunk:
-    "文本块，携带溯源信息"
+    """文本块，携带溯源信息"""
     text: str
     source: str
     chunk_id: str

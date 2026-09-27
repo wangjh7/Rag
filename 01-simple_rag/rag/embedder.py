@@ -33,7 +33,7 @@ class Embedder:
             # astype("float32") : 转成单精度浮点数 （FAISS和大多数向量库都要求float32）
             vecs = self._model.encode(
                 batch,
-                normalize_embeddings=True,
+                normalize_embeddings=True, # 输出向量L2长度 = 1
             ).astype("float32")
 
             # extend把二维数组摊平追加，.tolist()把numpy数组转成Python原生嵌套list
