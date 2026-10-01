@@ -13,6 +13,13 @@
         "02-RAG_basic",
         "02-RAG_basic/.venv/lib/python3.*/site-packages"
       ]
+    },
+    {
+      "root": "03-high_level_RAG",
+      "extraPaths": [
+        "03-high_level_RAG",
+        "03-high_level_RAG/.venv/lib/python3.*/site-packages"
+      ]
     }
   ]
 }
