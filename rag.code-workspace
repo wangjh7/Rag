@@ -2,7 +2,8 @@
   "folders": [
     { "path": "01-simple_rag" },
     { "path": "02-RAG_basic" },
-    { "path": "03-high_level_RAG" }
+    { "path": "03-high_level_RAG" },
+    { "path": "04-graph_rag_advanced" }
   ],
   "settings": {
     "ty.diagnosticMode": "openFilesOnly"
